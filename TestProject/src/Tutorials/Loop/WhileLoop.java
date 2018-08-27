@@ -33,7 +33,7 @@ public class WhileLoop {
 			if (count == 3) {  //true
 				break;
 			}
-			count ++;
+			count ++; //Zaehler
 		}
 	}
 
