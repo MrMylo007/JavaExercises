@@ -1,4 +1,4 @@
-package Tutorials;
+package Tutorials.Array;
 
 public class WasIstEinArray {
 
