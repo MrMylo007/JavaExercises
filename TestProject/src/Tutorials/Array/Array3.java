@@ -6,6 +6,7 @@ public class Array3 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		// Objekt Orientiert (OO)
 
 		// Array Deklaration
 		// Datatyp[] Name = new Datentyp[Anzahl];
@@ -14,7 +15,7 @@ public class Array3 {
 
 		int count = 0;
 		while (count < fragen.length) {
-			System.out.println(fragen[count]);
+			System.out.println(fragen[count] + "?");
 			
 			Scanner scan = new Scanner(System.in);
 			int eingabeUser = scan.nextInt();
@@ -24,9 +25,11 @@ public class Array3 {
 				count ++;
 			}
 			else {
-				System.out.println("falsch");
+				System.out.println("Leider Falsch, probier es nochmals:");
 			}
+			
 		}
+	    System.out.println("End");
 	}
 
 }
