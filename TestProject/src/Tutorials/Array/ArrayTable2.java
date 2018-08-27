@@ -4,6 +4,7 @@ public class ArrayTable2 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		// https://youtu.be/etyrkipdKvc
 		
 		int arrayList[] = {21,16,86,21,3};
 		int sum = 0;
