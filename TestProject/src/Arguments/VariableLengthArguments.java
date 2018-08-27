@@ -10,6 +10,8 @@ public class VariableLengthArguments {
 		System.out.println(avaerag(43,55,30,156,200,500));
 		System.out.println(avaerag(30, 40, 50));
 		
+		//Call Method
+		avaerag2(30, 40, 50);
 	}
 	
 	// ... = dont know how many arguments
@@ -20,6 +22,17 @@ public class VariableLengthArguments {
 		}
 		
 		return total/numbers.length;
+	}
+	
+	// ... = dont know how many arguments
+	public static void avaerag2 (int...numbers) {
+		int total = 0;
+		for (int x:numbers) {
+			total+=x;
+		}
+		int newTotal = total/numbers.length;
+		
+		System.out.println(newTotal); 
 	}
 
 }
