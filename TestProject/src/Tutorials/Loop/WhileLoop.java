@@ -9,7 +9,7 @@ public class WhileLoop {
 		
 		// while = solange
 		
-		/* Allgeminer Aufbau einer while-Schleife
+		/* Allgemeiner Aufbau einer while-Schleife
 		 * 
 		 * while(Bedigung){
 		 * 
