@@ -3,13 +3,13 @@ public class Bank {
 
 	//Attribut
 	private String BankName;
-	private int BankKredit;
+	private double BankKredit;
 	
 	//Getter
 	public String getBankName() {
 		return BankName;
 	}
-	public int getBankKredit() {
+	public double getBankKredit() {
 		return BankKredit;
 	}
 	
@@ -18,10 +18,14 @@ public class Bank {
 		BankName = bankName;
 	}
 	
-	public void setBankKredit(int bankKredit) {
+	public void setBankKredit(double bankKredit) {
 		BankKredit = bankKredit;
 	}
-
 	
+	//Konstructor
+	public void Bank(String pBankname, double pBankkredit) {
+		this.BankName = pBankname;
+		this.BankKredit = pBankkredit;
+	}
 	
 }
