@@ -2,16 +2,16 @@
 public class Employee extends Person{
 
 	//Attribut
-	private long employeeId;
+	private long employeeID;
 
 	//Getter
 	public long getEmployeeId() {
-		return employeeId;
+		return employeeID;
 	}
 
 	//Setter
 	public void setEmployeeId(long employeeId) {
-		this.employeeId = employeeId;
+		this.employeeID = employeeId;
 	}
 	
 	//Konstruktor
@@ -21,7 +21,7 @@ public class Employee extends Person{
 	
 	public Employee(String fn, String ln, long id) {
 		super(fn, ln);
-		this.employeeId = id;
+		this.employeeID = id;
 		System.out.println("Konstructor Employee ");
 	}
 	

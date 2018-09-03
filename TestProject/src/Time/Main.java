@@ -12,7 +12,7 @@ public class Main {
 		TimeObject.setTime(22, 47, 30);
 		System.out.println(TimeObject.toMilitary());
 		
-		TimeObject.setTime(1, 47, 30);
+		TimeObject.setTime(2, 47, 30);
 		System.out.println(TimeObject.toString());
 
 	}
