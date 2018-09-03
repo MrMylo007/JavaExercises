@@ -1,3 +1,4 @@
+import com.apple.eawt.SystemSleepListener;
 
 public class Bank {
 
@@ -6,26 +7,41 @@ public class Bank {
 	private double BankKredit;
 	
 	//Getter
-	public String getBankName() {
-		return BankName;
-	}
 	public double getBankKredit() {
 		return BankKredit;
 	}
+	public String getBankName() {
+		return BankName;
+	}
 	
-	//Setter
+	//Setter	
+	public void setBankKredit(double bankKredit) {
+		BankKredit = bankKredit;
+	}
 	public void setBankName(String bankName) {
 		BankName = bankName;
 	}
 	
-	public void setBankKredit(double bankKredit) {
-		BankKredit = bankKredit;
-	}
-	
 	//Konstructor
-	public void Bank(String pBankname, double pBankkredit) {
-		this.BankName = pBankname;
+	public Bank(double pBankkredit) {
 		this.BankKredit = pBankkredit;
 	}
+	
+	public void openBankAccount(Person p)
+	{
+		System.out.println("Hallo Herr " + p.getNachname());
+		System.out.println("Sie habe Ihr Konto erfolgreich eröffnet:");
+		System.out.println();
+		System.out.println("Name der Bank: " + getBankName());
+		double sum = getBankKredit() + p.getBetrag();
+		System.out.println("Ihr Kontostand: " + sum);
+		System.out.println("Kreditlimit: " + getBankKredit());
+		System.out.println("Wir freuen uns auf Ihren nächsten Besuch!");
+		System.out.println("****************************************************");
+	}
+
+
+
+
 	
 }
