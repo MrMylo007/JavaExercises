@@ -22,6 +22,7 @@ public class Employee extends Person{
 	public Employee(String fn, String ln, long id) {
 		super(fn, ln);
 		this.employeeId = id;
+		System.out.println("Konstructor Employee ");
 	}
 	
 	

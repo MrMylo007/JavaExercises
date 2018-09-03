@@ -31,6 +31,7 @@ public class Person {
 	public Person(String fn, String ln) {
 		this.firstName = fn;
 		this.lastName = ln;
+		System.out.println("Konstructor Person ");
 	}
 	
 	
