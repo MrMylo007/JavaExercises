@@ -5,6 +5,7 @@ public class Person {
 	private double Betrag;
 	private Bank myBank;
 	
+	
 	//Getter & Setter
 	public String getNachname() {
 		return Nachname;

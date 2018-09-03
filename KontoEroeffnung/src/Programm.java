@@ -14,9 +14,11 @@ public class Programm {
 		//Instanz Personen
 		Person p1 = new Person("Pruin", "Markus", 2344.87);
 		Person p2 = new Person("Max", "Müller", 2500);
-		Person p3 = new Person("Samira", "Meier", 3000);
+		Person p3 = new Person("Samira", "Meier", 70);
 		
 		db.openBankAccount(p1);
+		cb.openBankAccount(p2);
+		uc.openBankAccount(p3);
 		
 	}
 

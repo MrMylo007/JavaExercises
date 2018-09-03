@@ -1,5 +1,3 @@
-import com.apple.eawt.SystemSleepListener;
-
 public class Bank {
 
 	//Attribut
@@ -33,15 +31,13 @@ public class Bank {
 		System.out.println("Sie habe Ihr Konto erfolgreich eröffnet:");
 		System.out.println();
 		System.out.println("Name der Bank: " + getBankName());
-		double sum = getBankKredit() + p.getBetrag();
-		System.out.println("Ihr Kontostand: " + sum);
+		
+		p.setMyBank(this);
+		
+		System.out.println("Ihr Kontostand: " + p.getBetrag());
 		System.out.println("Kreditlimit: " + getBankKredit());
 		System.out.println("Wir freuen uns auf Ihren nächsten Besuch!");
 		System.out.println("****************************************************");
 	}
-
-
-
-
 	
 }
