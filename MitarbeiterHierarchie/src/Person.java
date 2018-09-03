@@ -15,7 +15,6 @@ public class Person {
 	}
 	
 	//Setter
-
 	public void setFirstName(String firstName) {
 		this.firstName = firstName;
 	}
