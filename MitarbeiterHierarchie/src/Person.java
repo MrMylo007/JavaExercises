@@ -22,10 +22,15 @@ public class Person {
 	public void setLastName(String lastName) {
 		this.lastName = lastName;
 	}
-	
 
+	
 	//Konstruktor
 	public Person () {
+	}
+
+	public Person(String fn, String ln) {
+		this.firstName = fn;
+		this.lastName = ln;
 	}
 	
 	

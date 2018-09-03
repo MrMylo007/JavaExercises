@@ -18,5 +18,10 @@ public class Assistant extends Employee{
 		
 	}
 	
+	public Assistant(String fn, String ln, long id, int hpw) {
+		super(fn, ln, id);
+		this.hoursPerWeek = hpw;
+	}
+	
 	
 }
