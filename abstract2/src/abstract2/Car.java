@@ -1,6 +1,6 @@
 package abstract2;
 
-public abstract class Car {
+public abstract class Car implements iDriveable{
 	
 	private int horsePower;
 	
