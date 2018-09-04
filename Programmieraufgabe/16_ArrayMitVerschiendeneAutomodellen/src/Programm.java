@@ -10,7 +10,8 @@ public class Programm {
 		Tesla modelX = new Tesla ("Model X", 360, 30, 30);
 		
 		//Überklasse Array
-		//Typ car i
+		//Typ icar.
+		//kennt objekte von der Klasse Audi und Tesla!
 		
 		iCar[] carArr = new iCar[5];
 		carArr[0] = audiA4;
